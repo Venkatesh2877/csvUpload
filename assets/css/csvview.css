@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    background-color: #358597;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#home{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    border: 2px double #F4A896;
+
+}
+#search{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #539FB2;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #539FB2;
+}
+    

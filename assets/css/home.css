@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color: #358597;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-div:first-child{
+    border: 2px double white;
+    padding: 2px;
+}
+
+#fileList{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.list{
+    border: 5px double #F4A896;
+    width: 35%;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out .2s ;
+}
+
+.list:hover{
+    transform: scale(1.2);
+}
+
+.fileName{
+    width: 80%;
+}
+
+.fa-eraser{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.fa-arrow-up-right-from-square{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}

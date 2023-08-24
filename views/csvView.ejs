@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/csvview.css">
+    
+<div id="home">
+    <a href="/">Home</a>
+</div>
+<div id="search">
+    <input placeholder="Search" type="text" id="search-box" >
+    <span><i class="fa-brands fa-searchengin fa-xl" id="searchIcon" style="color: white;"></i></span>
+</div>
+
+<table id="table">
+    <tr>
+        <%for(head of header){%>
+            <th><%=head%></th>
+        <%}%>
+    </tr>
+
+    <%for(row of datas){%>
+        <tr>
+            <%for(key of Object.keys(row)){%>
+                <td><%=row[key]%></td>
+            <%}%>
+        </tr>
+    <%}%>
+</table>
+
+<script src="/js/csvView.js"></script>
